@@ -1,0 +1,14 @@
+岗位职责
+岗位职责：
+在基于 libvirt/KVM 等虚拟化技术的统一管理平台上设计和开发新的功能、优化已有组件；
+撰写细致的设计文档，设计和实现健壮、清晰的 RESTful API；
+与测试、产品、售前和售后部门密切配合，不断提升产品质量和竞争力。
+岗位要求
+任职要求：
+热爱编程，具有以下任一种语言的扎实的编程经验：Python、Golang；
+具有 Web 后台开发经验，至少熟练使用一款 Linux（RedHat/CentOS/Ubuntu等）操作系统；
+具有基于以下至少一种数据库使用开发的经验，包括 MySQL、MongoDB、Redis、Cassandra、ElasticSearch、ZooKeeper 等；
+能撰写细致的设计文档：包含清晰的接口定义，有效的进行任务拆分；
+代码风格干净简洁、单元测试设计完备。
+加分项：
+有基于 KVM/Qemu/Libvirt/Openstack/Kubernetes 等项目使用和开发经验。

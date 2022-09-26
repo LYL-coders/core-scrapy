@@ -11,6 +11,23 @@ browser = webdriver.Chrome()
 browser.get(url)  # 加载网页url  更新了爬下一页的功能。所以放在这里
 time.sleep(3)  # 等待资源加载
 
+"""
+8. 在webelement对象里面使用查找Xpath 查找时，也可以使用.指明当前节点
+food = driver.find_element_by_id(‘food’)
+eles = food.find_elements_by_xpath(".//p") .指明当前节点
+eles = food.find_elements_by_xpath("…") 查找当前节点的父节点
+
+"""
+
+base_message_list = browser.find_elements_by_class_name('flex-row-wrap')
+                                                        #flex-row-wrap.tw-items-center.tw-h-[21px].tw-leading-[21px].tw-overflow-hidden
+# base_message_list = browser.find_elements_by_class_name('job-info-item.tw-truncate.max-w-15.tw-flex-none')
+for i in base_message_list:
+      # job_info_item_list = i.find_elements_by_class_name('job-info-item')
+      print(i.get_attribute('textContent'))
+      # for j in job_info_item_list:
+      #     print(j.get_attribute('textContent'))
+
 try:
     # nextPage = browser.find_element_by_xpath("/html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[1]/div[1]/a[1]")
     # nextPage.click()

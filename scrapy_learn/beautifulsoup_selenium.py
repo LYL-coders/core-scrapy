@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+
+
+# =======================================使用bs4进行html分析，通过正则拿到工资，该方案只作为个人测试学习，实际本项目用selenium去抓取工资
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-gpu')
@@ -40,11 +43,3 @@ print(n)
 #  print(s[start:end])
 #  s=s[end:]
 #  m=re.search(reg,s)
-# for i in s:
-#     print(i)
-/html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[2]
-/html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[2]/a/div[1]/img
-/html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[2]/div[1]/a[2]/img
-/html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[2]/div[1]/a[2]/img
-lis = self.driver.find_elements_by_xpath("//html/body/section/main/div/div[3]/div[3]/div[1]/div/div[2]/div/div[2]")
-/html/body/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[1]/div/a/div/img

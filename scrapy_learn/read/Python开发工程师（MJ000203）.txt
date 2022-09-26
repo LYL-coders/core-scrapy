@@ -1,0 +1,19 @@
+岗位关键词
+Python
+Django
+Postgresql
+岗位职责
+岗位职责：
+
+1.与产品经理一起完成木链产品线后端功能的设计和开发。
+2.参与木链产品后端的优化和改进。
+3.研讨研究应用前沿的后端技术。
+岗位要求
+岗位要求：
+
+1.熟练使用 Python3；熟悉 Django和Django REST framework 开源框架。
+2.日常使用 Linux 系统，有扎实的操作系统知识。
+3.扎实的计算机网络知识。
+4.熟悉SQL及NoSQL数据库，熟悉 Postgresql 优先，有性能调优经验者优先。
+5.有大数据相关经验（Hadoop/Spark/Flink/Kafka）者优先。
+五常地铁口
